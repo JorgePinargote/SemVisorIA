@@ -3,6 +3,8 @@ pillow
 numpy
 tensorflow
 opencv-python
-freeze
 keras
 gunicorn
+dj-database-url
+whitenoise
+psycopg2==2.5.4
