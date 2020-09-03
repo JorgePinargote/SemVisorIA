@@ -1,4 +1,5 @@
 Django~=2.2.4
 pillow
 numpy
-cv2
+tensorflow
+opencv-python
