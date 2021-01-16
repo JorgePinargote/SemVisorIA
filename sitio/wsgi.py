@@ -11,9 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'sitio.local_settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'sitio.settings')
 
 application = get_wsgi_application()
-
-from whitenoise.django import DjangoWhiteNoise
-application = DjangoWhiteNoise(application)
