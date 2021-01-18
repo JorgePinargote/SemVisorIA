@@ -1,8 +1,8 @@
 FROM tiangolo/uwsgi-nginx:python3.8
 
 LABEL Name=code6 Version=0.0.1
-EXPOSE 8000
-ENV LISTEN_PORT=8000
+EXPOSE 80
+ENV LISTEN_PORT=80
 
 ENV UWSGI_INI uwsgi.ini
 WORKDIR /app

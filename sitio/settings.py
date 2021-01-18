@@ -27,9 +27,13 @@ SECRET_KEY = '_w+kgjl2)_+*$t5)(t_o&73hrhr72$q$p#s_nm!g7mv9x#8o1z'
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    "localhost", 
-    "127.0.0.1"
-    ]
+    'semvrep1.southcentralus.azurecontainer.io',
+    'semvrep2.southcentralus.azurecontainer.io',
+    'semvrep3.southcentralus.azurecontainer.io',
+    'semvrep4.southcentralus.azurecontainer.io',
+    'semvrep5.southcentralus.azurecontainer.io',
+    'semvrep6.southcentralus.azurecontainer.io',
+    'semvisor.trafficmanager.net' ]
 
 
 # Application definition
